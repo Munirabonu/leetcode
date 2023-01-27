@@ -1,4 +1,18 @@
 // ishlolmadim ((((((
+    // js katta sonlar bn yaxshi ishlolmadi
+    var addBinary = function (a, b) {
+        return (parseInt(BigInt(a), 2) + parseInt(BigInt(b), 2)) == 5.5154844775275476e+29
+    };
+    
+    console.log(addBinary("10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101",
+        "110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011"));  
+var removeDuplicates = function (nums) {
+        let sort = new Set([...nums])
+        let x= Array.from(sort).join('').padEnd(nums.length,"_").split('')
+        return `${sort.size}, nums = ${x}`
+         
+    };
+    console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
 // var mergeTwoLists = function (list1, list2) {
 
 //     let arr = [list1,list2]

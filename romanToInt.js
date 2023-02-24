@@ -1,6 +1,7 @@
 // #object,#switch #case 
 // rim raqamlarini sonlarg otkazing
 
+
 // agar 1,10.. raqamlaridan keyin 5 raqamlari kelib qolsa ulardan bir ayrib hisoblanadi "IV" 5-1=4 
 
 // III 3

@@ -35,5 +35,6 @@ const twoSum = function(nums, target) {
         return [myObject[complement], i];
       }
       myObject[nums[i]] = i;
+        
     }
   };

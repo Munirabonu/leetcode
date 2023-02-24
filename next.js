@@ -140,3 +140,53 @@ console.log(isValid('(){}}}'));
 // true
 
 // (){[]} { topganda ikkinchisi orasidagi masofa juft bolishi kk 
+
+
+// massiv berilgan
+// massiv ichidagi eng kichik soni topish kk .
+//  u son oxirgi element bolishi mumkin emas yaniy indexga qaraladi
+// u sondan keyin ozidan katta bolgan son kelishi kk
+// natija foydani chiqarish kk
+// yaniy keyingi kundagidan avvalgi kuni ayirish kk
+
+// [2,4,1] => 2
+
+// console.log(x);
+
+
+// var maxProfit = function (prices) {
+//     let arr = prices
+//     let obj = {}
+//     let x = 0
+//     let res = []
+//     arr.map((item, index) => {
+//         obj[item] = index + (!obj[item] ? "" : obj[item])
+//     })
+//     console.log(obj);
+//     for (let item in obj) {
+//         if (obj[item] != undefined) {
+//             console.log(res);
+//             res.push(check(item, obj[item]))
+//         }
+//     }
+
+//     function check(k, v) {
+//         // if (obj[k] != arr.length - 1) {
+//         let newArr = Object.entries(obj)
+//         for (i = newArr.length - 1; i >= 0; i--) {
+//             if (newArr[i][1] > v) {
+//                 if (newArr[i][0] - k > x) {
+//                     x = newArr[i][0] - k
+//                 }
+//             }
+//         }
+//         // }
+//         return x
+//     }
+//     return res.sort((a, b) => a - b)[res.length - 1]
+// };
+
+
+// console.log(maxProfit([1, 4, 1, 4, 3, 1]));
+
+// console.log(String(0));

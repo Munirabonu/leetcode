@@ -1,4 +1,4 @@
-// array ichida kelgan sozlarning oxshash harflarini toping. boshidan boshlanishi hisobga olinsin aks holda ""
+// array ichida kelgan sozlarning oxshash harflarini toping. boshidan boshlanishi hisobga olinsin aks holda  ""
 // ['a','a','b'] =>""
 // ['asd','as','asdsa'] => 'as'
 

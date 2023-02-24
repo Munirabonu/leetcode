@@ -1,4 +1,4 @@
-var searchInsert = function (nums, target) {
+let searchInsert = function (nums, target) {
     if (nums.includes(target)) {
        return nums.indexOf(target)
     }   

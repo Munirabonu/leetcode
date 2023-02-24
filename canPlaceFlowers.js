@@ -1,4 +1,5 @@
 // massivga n ta 1 raqamini shunday joylashtirish kkiy a2ta bir yonma yon kelishi mumkin emas
+
 // arr= [1,0, 0, 0, 0, 1],n= 2 false
 // [1,0 ,0, 0, 1], 1  => true
 // [0,0 ,0, 0, 1], 2 => true

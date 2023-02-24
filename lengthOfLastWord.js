@@ -1,4 +1,4 @@
-var lengthOfLastWord = function(s) {
+let lengthOfLastWord = function(s) {
     return s.trim().slice(s.trim().lastIndexOf(" ")+1).length
 };
 let str='salom dunyo xayr '

@@ -1,4 +1,4 @@
-var plusOne = function (digits) {
+let plusOne = function (digits) {
     digits = (BigInt(digits.join('')) + 1n).toString(10)
     let arr = []
     for (let i = 0; i < digits.length; i++) {

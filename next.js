@@ -190,3 +190,5 @@ console.log(isValid('(){}}}'));
 // console.log(maxProfit([1, 4, 1, 4, 3, 1]));
 
 // console.log(String(0));
+
+// pascal piramida

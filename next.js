@@ -1,3 +1,27 @@
+
+// yechimiga tushunish kk
+
+// var minimumRecolors = function (blocks, k) {
+//     let min = Infinity;
+//     let start = 0;
+//     let currentMin = 0;
+//     for (let i = 0; i < blocks.length; i++) {
+//         if (blocks[i] === 'W') currentMin++;
+//         if (i - start + 1 == k) {
+//             console.log(i,min);
+//             min = Math.min(currentMin, min);
+//             if (blocks[start++] === 'W') {
+//                 currentMin--
+//             }
+//         }
+//     }
+//     return min;
+// };
+// console.log(minimumRecolors('WBBWBBBW', 4));
+
+
+
+
 // sharti:2 massvida bir xil kelgan 1chi elementni chiqaring ikkisi ham sort qilingan
 // muamo: vaqtini kamaytirish kk
 var getCommon = function (nums1, nums2) {
